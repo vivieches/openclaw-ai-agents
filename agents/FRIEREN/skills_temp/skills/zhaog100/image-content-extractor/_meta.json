@@ -1,0 +1,11 @@
+{
+  "owner": "zhaog100",
+  "slug": "image-content-extractor",
+  "displayName": "Image Content Extractor",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1772767215201,
+    "commit": "https://github.com/openclaw/skills/commit/b62373be03fff41def826cb6a813bca4062175b0"
+  },
+  "history": []
+}

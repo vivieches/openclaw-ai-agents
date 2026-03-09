@@ -1,0 +1,11 @@
+{
+  "owner": "gora050",
+  "slug": "surveymonkey",
+  "displayName": "Surveymonkey",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772910144845,
+    "commit": "https://github.com/openclaw/skills/commit/80949cad1dfea371b51fbbe55bc2c82ccacc9e6c"
+  },
+  "history": []
+}

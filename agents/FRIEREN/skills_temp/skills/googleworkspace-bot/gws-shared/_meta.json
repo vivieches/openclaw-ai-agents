@@ -1,0 +1,11 @@
+{
+  "owner": "googleworkspace-bot",
+  "slug": "gws-shared",
+  "displayName": "Gws Shared",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772753174930,
+    "commit": "https://github.com/openclaw/skills/commit/4bbf7020fe063121101a4195f408234c78669322"
+  },
+  "history": []
+}

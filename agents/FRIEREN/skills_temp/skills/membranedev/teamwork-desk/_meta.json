@@ -1,0 +1,11 @@
+{
+  "owner": "membranedev",
+  "slug": "teamwork-desk",
+  "displayName": "Teamwork Desk",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772845344395,
+    "commit": "https://github.com/openclaw/skills/commit/75dc315aebc2023171ae79b87c618e8613f5ca01"
+  },
+  "history": []
+}

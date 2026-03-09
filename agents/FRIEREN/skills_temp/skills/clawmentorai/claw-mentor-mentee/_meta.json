@@ -1,0 +1,27 @@
+{
+  "owner": "clawmentorai",
+  "slug": "claw-mentor-mentee",
+  "displayName": "ClawMentor Mentee Skill",
+  "latest": {
+    "version": "2.1.1",
+    "publishedAt": 1772838278787,
+    "commit": "https://github.com/openclaw/skills/commit/2c0573fea84cdac15c5b266bdd4f4bfe347cee07"
+  },
+  "history": [
+    {
+      "version": "2.0.1",
+      "publishedAt": 1772774652281,
+      "commit": "https://github.com/openclaw/skills/commit/6a23e30104f400defc70dda312a0aa06149537fc"
+    },
+    {
+      "version": "1.0.4",
+      "publishedAt": 1772034003102,
+      "commit": "https://github.com/openclaw/skills/commit/25334b992c528505add1903a26eb918d5b2ce415"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771988776083,
+      "commit": "https://github.com/openclaw/skills/commit/efd868a2f35bf42d0ea7052f0b9b8b2c78c04d2a"
+    }
+  ]
+}

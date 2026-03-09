@@ -1,0 +1,11 @@
+{
+  "owner": "dhrxy",
+  "slug": "psd-automator-screenshot",
+  "displayName": "Psd Automator Screenshot",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772768690275,
+    "commit": "https://github.com/openclaw/skills/commit/8116df65707e8f1e14e85284df5114e0344c5f91"
+  },
+  "history": []
+}

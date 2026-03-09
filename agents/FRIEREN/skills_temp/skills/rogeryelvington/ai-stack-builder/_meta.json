@@ -1,0 +1,11 @@
+{
+  "owner": "rogeryelvington",
+  "slug": "ai-stack-builder",
+  "displayName": "AI Stack Builder",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1772590387599,
+    "commit": "https://github.com/openclaw/skills/commit/d3ca3b64114bdb2ffb28b5153a7c1ea67f3dce62"
+  },
+  "history": []
+}

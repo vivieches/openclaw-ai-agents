@@ -1,0 +1,11 @@
+{
+  "owner": "membranedev",
+  "slug": "trello-integration",
+  "displayName": "Trello",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772694142700,
+    "commit": "https://github.com/openclaw/skills/commit/ed7d973e6b14df096ed4b601cdf89ffce365e0fd"
+  },
+  "history": []
+}

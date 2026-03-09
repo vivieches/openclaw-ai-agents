@@ -1,0 +1,467 @@
+﻿{
+    "meta":  {
+                 "lastTouchedVersion":  "2026.3.7",
+                 "lastTouchedAt":  "2026-03-09T09:52:56.110Z"
+             },
+    "wizard":  {
+                   "lastRunAt":  "2026-03-09T00:58:28.813Z",
+                   "lastRunVersion":  "2026.3.7",
+                   "lastRunCommand":  "doctor",
+                   "lastRunMode":  "local"
+               },
+    "auth":  {
+                 "profiles":  {
+                                  "openrouter:default":  {
+                                                             "provider":  "openrouter",
+                                                             "mode":  "api_key"
+                                                         }
+                              },
+                 "order":  {
+                               "openrouter":  [
+                                                  "openrouter:default"
+                                              ]
+                           }
+             },
+    "agents":  {
+                   "defaults":  {
+                                    "model":  {
+                                                  "primary":  "openrouter/google/gemini-2.5-flash",
+                                                  "fallbacks":  [
+                                                                    "openrouter/openai/gpt-oss-120b:free",
+                                                                    "openrouter/meta-llama/llama-3.3-70b-instruct:free"
+                                                                ]
+                                              },
+                                    "heartbeat":  {
+                                                      "every":  "120m",
+                                                      "lightContext":  true
+                                                  },
+                                    "contextTokens":  50000,
+                                    "workspace":  "C:\\Users\\vivim\\.openclaw\\workspace",
+                                    "compaction":  {
+                                                       "mode":  "default",
+                                                       "reserveTokensFloor":  40000,
+                                                       "memoryFlush":  {
+                                                                           "enabled":  true,
+                                                                           "softThresholdTokens":  40000
+                                                                       }
+                                                   },
+                                    "subagents":  {
+                                                      "maxConcurrent":  8,
+                                                      "maxSpawnDepth":  2,
+                                                      "maxChildrenPerAgent":  10,
+                                                      "archiveAfterMinutes":  120
+                                                  }
+                                },
+                   "list":  [
+                                {
+                                    "id":  "frieren",
+                                    "default":  true,
+                                    "workspace":  "C:\\Users\\vivim\\.openclaw\\workspace\\agents\\FRIEREN",
+                                    "model":  {
+                                                  "primary":  "openrouter/google/gemini-2.5-flash",
+                                                  "fallbacks":  [
+                                                                    "openrouter/openai/gpt-oss-120b:free",
+                                                                    "openrouter/meta-llama/llama-3.3-70b-instruct:free"
+                                                                ]
+                                              },
+                                    "heartbeat":  {
+                                                      "every":  "55m"
+                                                  },
+                                    "subagents":  {
+                                                      "allowAgents":  [
+                                                                          "*"
+                                                                      ]
+                                                  }
+                                },
+                                {
+                                    "id":  "mirror",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              },
+                                    "heartbeat":  {
+                                                      "every":  "3h"
+                                                  }
+                                },
+                                {
+                                    "id":  "cash",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              },
+                                    "heartbeat":  {
+                                                      "every":  "2h"
+                                                  }
+                                },
+                                {
+                                    "id":  "storm",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              },
+                                    "heartbeat":  {
+                                                      "every":  "2h"
+                                                  }
+                                },
+                                {
+                                    "id":  "echo",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              },
+                                    "heartbeat":  {
+                                                      "every":  "2h"
+                                                  }
+                                },
+                                {
+                                    "id":  "DANTE",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "ARIA",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "BYTE",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "CANVAS",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "CLIP",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "FLOW",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "HEIST",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "KIRA",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "LEAD",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "LENS",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "LUMEN",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "LUNA",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "MAP",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "MENTOR",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "NANO",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "NEXUS",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "NOVA",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "ORACLE",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "PINE",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "PIXEL",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "PULSE",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "RADAR",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "REEL",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "SAGE",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "SCOUT",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "TREND",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "VAULT",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "VIBE",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "WIRE",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "YIELD",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "ARC",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "CODA",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "LINK",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "SYNC",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "META",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "CORE",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                },
+                                {
+                                    "id":  "JOLT",
+                                    "model":  {
+                                                  "primary":  "openrouter/qwen/qwen3-next-80b-a3b-instruct:free"
+                                              }
+                                }
+                            ]
+               },
+    "tools":  {
+                  "sessions":  {
+                                   "visibility":  "tree"
+                               },
+                  "loopDetection":  {
+                                        "enabled":  true,
+                                        "warningThreshold":  10,
+                                        "criticalThreshold":  20,
+                                        "detectors":  {
+                                                          "genericRepeat":  true,
+                                                          "pingPong":  true
+                                                      }
+                                    },
+                  "agentToAgent":  {
+                                       "enabled":  false
+                                   },
+                  "exec":  {
+
+                           }
+              },
+    "messages":  {
+                     "ackReactionScope":  "group-mentions"
+                 },
+    "commands":  {
+                     "native":  "auto",
+                     "nativeSkills":  "auto",
+                     "restart":  true,
+                     "ownerDisplay":  "raw"
+                 },
+    "session":  {
+                    "dmScope":  "per-channel-peer"
+                },
+    "hooks":  {
+                  "internal":  {
+                                   "enabled":  true,
+                                   "entries":  {
+                                                   "boot-md":  {
+                                                                   "enabled":  true
+                                                               },
+                                                   "bootstrap-extra-files":  {
+                                                                                 "enabled":  true
+                                                                             },
+                                                   "command-logger":  {
+                                                                          "enabled":  true
+                                                                      },
+                                                   "session-memory":  {
+                                                                          "enabled":  true
+                                                                      }
+                                               }
+                               }
+              },
+    "channels":  {
+                     "telegram":  {
+                                      "enabled":  true,
+                                      "dmPolicy":  "allowlist",
+                                      "botToken":  "8213865439:AAEzxLv9pdBk3Nr9YcGA2Q3q3H8MzKXbIEI",
+                                      "groups":  {
+                                                     "-1003808523228":  {
+                                                                            "requireMention":  false,
+                                                                            "groupPolicy":  "open"
+                                                                        }
+                                                 },
+                                      "allowFrom":  [
+                                                        "7006805719"
+                                                    ],
+                                      "groupPolicy":  "allowlist",
+                                      "streaming":  "partial"
+                                  }
+                 },
+    "gateway":  {
+                    "port":  18789,
+                    "mode":  "local",
+                    "bind":  "loopback",
+                    "auth":  {
+                                 "mode":  "token",
+                                 "token":  "198ddcf03f0b1c28fc83aa6c9f6bb588da3c3e9d50ef7eb7"
+                             },
+                    "tailscale":  {
+                                      "mode":  "off",
+                                      "resetOnExit":  false
+                                  },
+                    "nodes":  {
+                                  "denyCommands":  [
+                                                       "camera.snap",
+                                                       "camera.clip",
+                                                       "screen.record",
+                                                       "contacts.add",
+                                                       "calendar.add",
+                                                       "reminders.add"
+                                                   ]
+                              }
+                },
+    "skills":  {
+                   "install":  {
+                                   "nodeManager":  "npm"
+                               }
+               },
+    "plugins":  {
+                    "allow":  [
+                                  "openclaw-mem0",
+                                  "telegram",
+                                  "qwen-portal-auth"
+                              ],
+                    "slots":  {
+                                  "memory":  "openclaw-mem0"
+                              },
+                    "entries":  {
+                                    "telegram":  {
+                                                     "enabled":  true
+                                                 },
+                                    "memory-core":  {
+                                                        "enabled":  false
+                                                    },
+                                    "memory-lancedb":  {
+                                                           "enabled":  false
+                                                       },
+                                    "openclaw-mem0":  {
+                                                          "enabled":  true,
+                                                          "config":  {
+                                                                         "mode":  "platform",
+                                                                         "apiKey":  "m0-wZYHlCZrNiWzK6yG5ARKlunsbJKi6Zegln3IJxXn",
+                                                                         "userId":  "vitoria_ferreira",
+                                                                         "autoCapture":  true,
+                                                                         "autoRecall":  true
+                                                                     }
+                                                      },
+                                    "qwen-portal-auth":  {
+                                                             "enabled":  true
+                                                         }
+                                }
+                }
+}

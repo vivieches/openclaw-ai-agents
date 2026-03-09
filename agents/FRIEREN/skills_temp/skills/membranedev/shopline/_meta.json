@@ -1,0 +1,11 @@
+{
+  "owner": "membranedev",
+  "slug": "shopline",
+  "displayName": "Shopline",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772766143995,
+    "commit": "https://github.com/openclaw/skills/commit/9d19dbd447a2374991fd56944d907d36cab63990"
+  },
+  "history": []
+}

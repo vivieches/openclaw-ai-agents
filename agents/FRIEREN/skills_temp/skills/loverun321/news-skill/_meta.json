@@ -1,0 +1,11 @@
+{
+  "owner": "loverun321",
+  "slug": "news-skill",
+  "displayName": "News Skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772725669182,
+    "commit": "https://github.com/openclaw/skills/commit/c0b32246d9f45a1b46a3bb2334b1993f618293b6"
+  },
+  "history": []
+}

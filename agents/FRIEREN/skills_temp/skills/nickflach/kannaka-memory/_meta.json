@@ -1,0 +1,11 @@
+{
+  "owner": "nickflach",
+  "slug": "kannaka-memory",
+  "displayName": "Kannaka Memory",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1772937271545,
+    "commit": "https://github.com/openclaw/skills/commit/8410957ece6497e313f2adb7148a99a76eb36766"
+  },
+  "history": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "moltstreet",
+  "version": "1.4.3",
+  "description": "Get AI-generated market predictions for 52 major ETFs (SPY, QQQ, ARKK, GLD, sector ETFs, international, fixed income). Use when user asks about market outlook, ETF analysis, or investment ideas. Free daily signals from a 7-agent AI committee.",
+  "author": "moltstreet",
+  "license": "MIT",
+  "homepage": "https://moltstreet.com",
+  "documentation": "https://moltstreet.com/skill.md",
+  "repository": "https://github.com/fredxyt/moltstreet",
+  "keywords": [
+    "ETF",
+    "market predictions",
+    "investment analysis",
+    "portfolio allocation",
+    "market outlook",
+    "financial intelligence",
+    "AI trading",
+    "stock market",
+    "ETF signals",
+    "market sentiment"
+  ]
+}

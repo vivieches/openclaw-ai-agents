@@ -1,0 +1,11 @@
+{
+  "owner": "zhenstaff",
+  "slug": "openclaw-memory-os",
+  "displayName": "OpenClaw Memory-OS",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1772923086661,
+    "commit": "https://github.com/openclaw/skills/commit/c32bb8d4bd75876a9315ef3ea12a4ef60354c492"
+  },
+  "history": []
+}

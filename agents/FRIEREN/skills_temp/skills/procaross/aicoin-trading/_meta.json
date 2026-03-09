@@ -1,0 +1,22 @@
+{
+  "owner": "procaross",
+  "slug": "aicoin-trading",
+  "displayName": "Aicoin Trading",
+  "latest": {
+    "version": "3.2.2",
+    "publishedAt": 1772798833147,
+    "commit": "https://github.com/openclaw/skills/commit/0e0e55f837d2bcac75a3701b4b49275afd518224"
+  },
+  "history": [
+    {
+      "version": "3.1.3",
+      "publishedAt": 1772795591264,
+      "commit": "https://github.com/openclaw/skills/commit/96b293f3d164be8705b5002a88ffb63ea491186d"
+    },
+    {
+      "version": "3.0.6",
+      "publishedAt": 1772791376899,
+      "commit": "https://github.com/openclaw/skills/commit/d40dbf882ee905c437013b793935435eb63ab805"
+    }
+  ]
+}

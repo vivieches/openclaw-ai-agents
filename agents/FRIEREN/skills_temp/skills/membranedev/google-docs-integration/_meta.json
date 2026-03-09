@@ -1,0 +1,11 @@
+{
+  "owner": "membranedev",
+  "slug": "google-docs-integration",
+  "displayName": "Google Docs",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772766150121,
+    "commit": "https://github.com/openclaw/skills/commit/f288258c55946ba1cf9d3ca908077a5718fccaa1"
+  },
+  "history": []
+}

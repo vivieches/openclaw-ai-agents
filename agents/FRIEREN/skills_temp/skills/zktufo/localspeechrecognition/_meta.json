@@ -1,0 +1,11 @@
+{
+  "owner": "zktufo",
+  "slug": "localspeechrecognition",
+  "displayName": "Speak2u",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772773379622,
+    "commit": "https://github.com/openclaw/skills/commit/f920aafd52173aae73f3d4724ae025c42f9b4aa5"
+  },
+  "history": []
+}

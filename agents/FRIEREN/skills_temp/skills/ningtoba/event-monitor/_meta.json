@@ -1,0 +1,11 @@
+{
+  "owner": "ningtoba",
+  "slug": "event-monitor",
+  "displayName": "Event Monitor",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1772767792556,
+    "commit": "https://github.com/openclaw/skills/commit/073470816077383c59f6351af391b5bd968125a0"
+  },
+  "history": []
+}

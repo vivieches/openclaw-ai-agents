@@ -1,0 +1,11 @@
+{
+  "owner": "gora050",
+  "slug": "paypal-integration",
+  "displayName": "Paypal",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772798555989,
+    "commit": "https://github.com/openclaw/skills/commit/227d41a0e1c3359e8dcfb8c379c36d45d76960a2"
+  },
+  "history": []
+}

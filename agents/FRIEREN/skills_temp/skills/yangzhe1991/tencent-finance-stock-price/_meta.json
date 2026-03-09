@@ -1,0 +1,11 @@
+{
+  "owner": "yangzhe1991",
+  "slug": "tencent-finance-stock-price",
+  "displayName": "Tencent Finance Stock Price",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1772698418995,
+    "commit": "https://github.com/openclaw/skills/commit/034dce4a84de7d9dd725bac1a4aa7c59924c3630"
+  },
+  "history": []
+}

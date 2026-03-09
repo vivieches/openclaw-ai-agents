@@ -1,0 +1,11 @@
+{
+  "owner": "googleworkspace-bot",
+  "slug": "persona-researcher",
+  "displayName": "Persona Researcher",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772843163265,
+    "commit": "https://github.com/openclaw/skills/commit/0103185c8228505248ae1ba89f1202218a070590"
+  },
+  "history": []
+}

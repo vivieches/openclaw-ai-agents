@@ -1,0 +1,11 @@
+{
+  "owner": "googleworkspace-bot",
+  "slug": "persona-content-creator",
+  "displayName": "Persona Content Creator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772838527273,
+    "commit": "https://github.com/openclaw/skills/commit/bfa391ac78202c0fad4d6c529b73bc6f63b2ceca"
+  },
+  "history": []
+}

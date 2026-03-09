@@ -1,0 +1,30 @@
+# STATE.yaml — Estado compartilhado do Squad VY
+# Todos os agentes leem e atualizam este arquivo
+
+squad: "Squad VY"
+version: "1.0"
+owner: "Vitoria Ferreira"
+last_updated: "2026-03-08 14:30"
+
+active_projects: []
+
+tasks: []
+
+decisions: []
+
+redis:
+  status: "configurado"
+  endpoint: "winning-lionfish-12190.upstash.io"
+  region: "eu-west-1"
+  tls: true
+  free_tier:
+    storage: "256MB"
+    commands_per_month: "500K"
+  
+supabase:
+  status: "configurado"
+  tabelas: 9
+  pgvector: true
+  realtime: pendente_ativar
+
+agents_online: ["NEXUS", "FRIEREN", "CASH", "VAULT", "PULSE"]

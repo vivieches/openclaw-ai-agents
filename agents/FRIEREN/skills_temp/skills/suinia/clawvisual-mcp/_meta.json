@@ -1,0 +1,11 @@
+{
+  "owner": "suinia",
+  "slug": "clawvisual-mcp",
+  "displayName": "Clawvisual Mcp",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1772805139933,
+    "commit": "https://github.com/openclaw/skills/commit/b6c9dfbd2cba7a2d644bd19dca51d4590975c64f"
+  },
+  "history": []
+}

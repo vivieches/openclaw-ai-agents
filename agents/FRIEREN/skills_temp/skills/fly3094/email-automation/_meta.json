@@ -1,0 +1,11 @@
+{
+  "owner": "fly3094",
+  "slug": "email-automation",
+  "displayName": "Email Automation",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772883947292,
+    "commit": "https://github.com/openclaw/skills/commit/7a2c4cb88c5c7b1e8822f6921a1a6229576abc3d"
+  },
+  "history": []
+}

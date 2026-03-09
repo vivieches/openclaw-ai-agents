@@ -1,0 +1,11 @@
+{
+  "owner": "gora050",
+  "slug": "hive",
+  "displayName": "Hive",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772820141022,
+    "commit": "https://github.com/openclaw/skills/commit/a4963763fff98844856f4fae4655f14ffa9a5109"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "membranedev",
+  "slug": "creatio",
+  "displayName": "Creatio",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772877741238,
+    "commit": "https://github.com/openclaw/skills/commit/360c6e5d07218ff9c525e54119556b0c819212f6"
+  },
+  "history": []
+}

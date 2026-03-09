@@ -1,0 +1,11 @@
+{
+  "owner": "jisuapi",
+  "slug": "jisu-weather",
+  "displayName": "全国天气预报 - Weather Forecast",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772612038866,
+    "commit": "https://github.com/openclaw/skills/commit/a86956f6a8a81be7c0923f83db6aa71a0e15719e"
+  },
+  "history": []
+}

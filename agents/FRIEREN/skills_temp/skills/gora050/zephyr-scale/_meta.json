@@ -1,0 +1,11 @@
+{
+  "owner": "gora050",
+  "slug": "zephyr-scale",
+  "displayName": "Zephyr Scale",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772888623761,
+    "commit": "https://github.com/openclaw/skills/commit/fdc7769f4e51cd614fc1435f8b2e48292c4fc191"
+  },
+  "history": []
+}

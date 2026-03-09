@@ -1,0 +1,11 @@
+{
+  "owner": "googleworkspace-bot",
+  "slug": "gws-modelarmor-create-template",
+  "displayName": "Gws Modelarmor Create Template",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772748570146,
+    "commit": "https://github.com/openclaw/skills/commit/4c56391cfd6f850c0255080ab3d48532bafa7de5"
+  },
+  "history": []
+}

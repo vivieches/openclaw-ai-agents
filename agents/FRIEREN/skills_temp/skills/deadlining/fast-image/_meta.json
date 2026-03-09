@@ -1,0 +1,11 @@
+{
+  "owner": "deadlining",
+  "slug": "fast-image",
+  "displayName": "Fast Image",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1772782174576,
+    "commit": "https://github.com/openclaw/skills/commit/be77d2a5933585392b0d58a7fbf1e3b1be6137a0"
+  },
+  "history": []
+}

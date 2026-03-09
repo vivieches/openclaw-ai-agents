@@ -1,0 +1,100 @@
+{
+  "version": "2.0.0",
+  "description": "Multi-language threat keyword patterns for AEGIS scanner. CRITICAL = immediate physical danger to people IN the user's country. HIGH = regional threat requiring preparation. MEDIUM = situational awareness.",
+  "critical": {
+    "description": "IMMEDIATE PHYSICAL DANGER in user's country — act now, shelter, evacuate. Only triggers instant channel alert.",
+    "patterns": {
+      "en": [
+        "(missile|rocket|drone|projectile).*(inbound|incoming|headed|toward|targeting).*(dubai|abu.dhabi|uae|emirates|sharjah|ajman|fujairah|ras.al|umm.al)",
+        "(dubai|abu.dhabi|uae|emirates|sharjah).*(under.attack|hit.by|struck.by|missile.hit|bomb|impact|casualt|explosion.reported)",
+        "(siren|air.raid|civil.defense).*(activat|sound|trigger|warn).*(dubai|abu.dhabi|uae|emirates)",
+        "(dubai|abu.dhabi|uae|emirates).*(siren|air.raid|alert.system|warning.system).*(activat|sound|trigger)",
+        "(shelter|evacuat|take.cover).*(order|directive|mandatory|immediate).*(dubai|abu.dhabi|uae|emirates|ncema)",
+        "(ncema|national.emergency).*(order|direct|activat|warn|shelter|evacuat)",
+        "(airport|airspace).*(closed|suspended|shutdown|grounded|halt).*(dubai|abu.dhabi|uae|emirates)",
+        "(dubai|abu.dhabi|uae|dxb|auh).*(airport|airspace).*(closed|suspended|shutdown|grounded|halt)",
+        "nuclear.*(detonat|strike|attack|weapon.used).*(gulf|uae|dubai|abu.dhabi)",
+        "chemical.*(attack|release|weapon.used).*(gulf|uae|dubai|abu.dhabi)",
+        "(mass.casualt|civilian.casualt).*(dubai|abu.dhabi|uae|emirates)",
+        "(dubai|abu.dhabi|uae|emirates).*(mass.casualt|civilian.casualt|killed|dead.reported)",
+        "uae.*(intercept.fail|defense.fail|breach|penetrat)",
+        "uae.*(intercept|air.defen|shoot.down|thaad|patriot).*(ballistic|missile|cruise)",
+        "(ballistic|cruise).*(missile).*(intercept|hit|target|strike|fire|launch).*(uae|dubai|abu.dhabi|emirates)",
+        "uae.*(intercept).*(\\d+).*(missile|drone|rocket|projectile)",
+        "(iran|iranian).*(attack|strike|fire|launch|target).*(uae|dubai|abu.dhabi|emirates)",
+        "(uae|dubai|abu.dhabi|emirates).*(phone.alert|emergency.alert|push.alert|civil.alert|warning.alert)",
+        "(ministry.of.defen|modgov|mod.gov).*(uae|emirates).*(statement|intercept|defense|attack)"
+      ],
+      "ar": [
+        "صاروخ.*(دبي|أبو.ظبي|الإمارات|الشارقة)",
+        "هجوم.*(دبي|أبو.ظبي|الإمارات)",
+        "صفارة.إنذار|دفاع.مدني.*(تفعيل|تحذير)",
+        "إخلاء.*(فوري|إلزامي|أمر)",
+        "(مطار|مجال.جوي).*(إغلاق|تعليق)"
+      ]
+    }
+  },
+  "high": {
+    "description": "Significant regional threat — be prepared, situation could escalate to direct danger. Batched in briefings, NOT instant alerts.",
+    "patterns": {
+      "en": [
+        "(iran|tehran).*(launch|fire|missile|drone|retaliat|strike|attack).*(gulf|gcc|region|neighbor|saudi|kuwait|bahrain|qatar|oman|jordan|iraq)",
+        "(attack|strike|missile|intercept|explosion).*(saudi|kuwait|bahrain|qatar|oman|jordan|iraq)",
+        "(strait|hormuz).*(closed|blocked|mined|attack|disrupt|shut)",
+        "uae.*(intercept|shoot.down|air.defense|thaad|patriot|iron.dome)",
+        "(dubai|abu.dhabi|uae|emirates).*(alert|phone.alert|warning.message|prepare|readiness)",
+        "(hezbollah|houthi).*(launch|attack|missile|drone|strike)",
+        "flight.*(cancel|suspend|divert|ground|ban|restriction).*(gulf|uae|dubai|abu.dhabi|region)",
+        "(power|water|internet|telecom).*(outage|disruption|shutdown|cut).*(dubai|abu.dhabi|uae)",
+        "border.*(closed|restricted|shutdown).*(uae|emirates|oman|saudi)",
+        "military.*(buildup|deployment|reinforcement|mobiliz).*(gulf|uae|region)",
+        "war.*(expand|spread|widen|new.front|escalat)",
+        "martial.law|curfew|lockdown",
+        "embassy.*(close|evacuat|reduce.staff|warning).*(uae|dubai|abu.dhabi)",
+        "ceasefire.*(collapse|fail|violat|end)",
+        "(bank|atm).*(run|shortage|limit|freeze|closure).*(uae|dubai|abu.dhabi)",
+        "food.*(shortage|panic|hoarding|rationing).*(uae|dubai|abu.dhabi)",
+        "oil.*(embargo|cutoff|halt.export|blockade)"
+      ],
+      "ar": [
+        "إيران|طهران.*(صاروخ|طائرة.مسيرة|هجوم|ضربة)",
+        "حزب.الله|الحوثي.*(إطلاق|هجوم|صاروخ)",
+        "مضيق.هرمز.*(إغلاق|هجوم|ألغام)",
+        "حظر.تجول|أحكام.عرفية|إغلاق.حدود",
+        "وقف.إطلاق.النار.*(انهار|فشل)",
+        "تصعيد|حشد.عسكري"
+      ]
+    }
+  },
+  "medium": {
+    "description": "Situational awareness — included in twice-daily briefing digests only.",
+    "patterns": {
+      "en": [
+        "(iran|tehran).*(threat|warn|capabilit|defense|sanction|diplomac|negotiat)",
+        "(us|american).*(deploy|carrier|strike.group|reinforce|base).*(gulf|region|middle.east)",
+        "(israel|idf).*(iran|strike|bomb|operation|retaliat)",
+        "(russia|china).*(gulf|iran|mediat|veto|support|supply)",
+        "(refugee|migration|displacement|exodus)",
+        "(sanction|embargo|blockade|restriction)",
+        "oil.*(price|spike|surge|cut.output|production)",
+        "gold.*(price|spike|surge)",
+        "currency.*(crash|devalue|volatil)",
+        "supply.chain.*(disrupt|delay|shortage)",
+        "humanitarian.*(crisis|corridor|aid)",
+        "cyber.*(attack|breach|threat|warfare)",
+        "propaganda|disinformation|fake.news|hoax",
+        "(un|united.nations).*(resolution|vote|session|condemn)",
+        "ceasefire|peace.talk|negotiat|de-escalat|truce",
+        "(kuwait|bahrain|qatar|saudi|oman).*(oil|econom|trade|disrupt)"
+      ],
+      "ar": [
+        "عقوبات|حصار|حظر",
+        "لاجئ|نزوح|هجرة",
+        "أمم.متحدة|مجلس.الأمن",
+        "حرب.سيبرانية|هجوم.إلكتروني",
+        "وقف.إطلاق.النار|مفاوضات|هدنة",
+        "نفط|أسعار.النفط"
+      ]
+    }
+  }
+}

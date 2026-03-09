@@ -1,0 +1,11 @@
+{
+  "owner": "procaross",
+  "slug": "aicoin-hyperliquid",
+  "displayName": "Aicoin Hyperliquid",
+  "latest": {
+    "version": "3.0.9",
+    "publishedAt": 1772795604416,
+    "commit": "https://github.com/openclaw/skills/commit/fa60bca50df219b48b9f269adbed9de2eb303770"
+  },
+  "history": []
+}

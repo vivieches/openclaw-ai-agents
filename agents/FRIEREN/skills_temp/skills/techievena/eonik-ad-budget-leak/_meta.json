@@ -1,0 +1,17 @@
+{
+  "owner": "techievena",
+  "slug": "eonik-ad-budget-leak",
+  "displayName": "eonik Ad Budget Leak",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1772857937245,
+    "commit": "https://github.com/openclaw/skills/commit/50de0e5cb8b59abe0448175a02dcf0b6b883362a"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1772857524807,
+      "commit": "https://github.com/openclaw/skills/commit/418b2e161ed268f367a4add4def0d8c7c04197be"
+    }
+  ]
+}

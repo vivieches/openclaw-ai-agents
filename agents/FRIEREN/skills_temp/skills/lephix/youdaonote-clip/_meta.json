@@ -1,0 +1,11 @@
+{
+  "owner": "lephix",
+  "slug": "youdaonote-clip",
+  "displayName": "YoudaoNote Clip",
+  "latest": {
+    "version": "1.15.0",
+    "publishedAt": 1772802306410,
+    "commit": "https://github.com/openclaw/skills/commit/8788f0cea4a93d721634582f57bad4a14e0635a6"
+  },
+  "history": []
+}

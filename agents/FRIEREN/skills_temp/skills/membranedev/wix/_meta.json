@@ -1,0 +1,11 @@
+{
+  "owner": "membranedev",
+  "slug": "wix",
+  "displayName": "Wix",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772866950928,
+    "commit": "https://github.com/openclaw/skills/commit/25e78869613eb045afb3955dcbbdba9a1763f25d"
+  },
+  "history": []
+}
