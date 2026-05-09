@@ -1,7 +1,7 @@
-# OpenClaw AI Agents — 43 Specialized AI Agent Framework
+# OpenClaw AI Agents — 45 Specialized AI Agent Framework
 
 [![Python](https://img.shields.io/badge/Python-3.10+-FF4DA6?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![Agents](https://img.shields.io/badge/Agents-43-9B5CFF?style=flat-square)](.)
+[![Agents](https://img.shields.io/badge/Agents-45-9B5CFF?style=flat-square)](.)
 [![AI](https://img.shields.io/badge/Powered%20by-Claude%20AI-FF4DA6?style=flat-square&logo=anthropic&logoColor=white)](https://anthropic.com)
 [![License](https://img.shields.io/badge/License-MIT-FF8CC8?style=flat-square)](.)
 
@@ -27,6 +27,7 @@ Built for:
 ### Layer 0 — Command & Strategy
 | Agent | Role |
 |-------|------|
+| **OPENCLAW** | Core framework agent — powers and connects the entire agent ecosystem |
 | **NEXUS** | Central orchestrator — manages complex projects and conflicts |
 | **FRIEREN** | Quality control, protocols and system health |
 | **SAGE** | Strategist — feasibility analysis and planning |
@@ -43,6 +44,7 @@ Built for:
 ### Layer 2 — Content & Branding
 | Agent | Role |
 |-------|------|
+| **HERMESS** | Communications agent — messaging, outreach and cross-channel delivery |
 | **ECHO** | Narrative copywriter and conversion specialist |
 | **KIRA** | Social media manager and engagement strategist |
 | **STORM** | Virality engineer and hook writer |
