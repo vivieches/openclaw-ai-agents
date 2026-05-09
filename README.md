@@ -1,117 +1,117 @@
-# OpenClaw AI Agents — Framework de 43 Agentes Especializados
+# OpenClaw AI Agents — 43 Specialized AI Agent Framework
 
 [![Python](https://img.shields.io/badge/Python-3.10+-FF4DA6?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![Agents](https://img.shields.io/badge/Agentes-43-9B5CFF?style=flat-square)](.)
+[![Agents](https://img.shields.io/badge/Agents-43-9B5CFF?style=flat-square)](.)
 [![AI](https://img.shields.io/badge/Powered%20by-Claude%20AI-FF4DA6?style=flat-square&logo=anthropic&logoColor=white)](https://anthropic.com)
 [![License](https://img.shields.io/badge/License-MIT-FF8CC8?style=flat-square)](.)
 
-> Sistema multi-agente de IA para automação de marketing, vendas, conteúdo, desenvolvimento e estratégia de negócios. 43 agentes especializados organizados em camadas funcionais.
+> A multi-agent AI framework for automating marketing, sales, content creation, software development and business strategy. 43 specialized agents organized into functional layers.
 
 ---
 
-## O que é o OpenClaw?
+## What is OpenClaw?
 
-O **OpenClaw** é um framework de agentes IA especializados, onde cada agente tem uma função específica dentro de um ecossistema completo de automação empresarial.
+**OpenClaw** is a specialized AI agent framework where each agent has a specific role within a complete business automation ecosystem.
 
-Ideal para:
-- 🤖 **Automação de marketing e conteúdo**
-- 📊 **Análise de dados e inteligência de mercado**
-- 💼 **Funis de vendas e prospecção**
-- 🛠️ **Desenvolvimento de software e scripts**
-- 🚀 **Lançamentos de produtos digitais**
-
----
-
-## Arquitetura do Sistema
-
-### Camada 0 — Comando e Estratégia
-| Agente | Função |
-|--------|--------|
-| **NEXUS** | Orquestrador central — gerencia projetos complexos e conflitos |
-| **FRIEREN** | Qualidade, protocolos e bem-estar do sistema |
-| **SAGE** | Estrategista — análise de viabilidade e planejamento |
-
-### Camada 1 — Inteligência e Mercado
-| Agente | Função |
-|--------|--------|
-| **RADAR** | Analista de BI — insights baseados em dados |
-| **SCOUT** | Prospecção ativa de leads |
-| **ORACLE** | Pesquisa de mercado e análise de concorrência |
-| **ARC** | Arquiteto de SaaS e produtos digitais |
-| **YIELD** | Engenheiro de monetização e ROI |
-
-### Camada 2 — Conteúdo e Branding
-| Agente | Função |
-|--------|--------|
-| **ECHO** | Copywriter narrativo e conversão |
-| **KIRA** | Social media e engajamento |
-| **STORM** | Viralização e hooks curiosos |
-| **DANTE** | Conteúdo especializado para LinkedIn |
-| **PINE** | Tráfego orgânico via Pinterest |
-| **INK** | Email marketing e newsletters |
-| **VIBE** | Branding e identidade visual |
-| **ATLAS** | Morning brief e curadoria de notícias |
-
-### Camada 3 — Execução Técnica e Código
-| Agente | Função |
-|--------|--------|
-| **LUMEN** | Dev Full-Stack e resolução de bugs |
-| **FLUX** | Gestão de projetos e cronogramas |
-| **BYTE** | Automações leves e scripts |
-| **PULSE** | Sysadmin e monitoramento de sistemas |
-| **VAULT** | Memória de longo prazo e documentação |
-| **HELIX** | SEO técnico e para IA |
-| **FLOW** | Especialista em automações no n8n |
-
-### Camada 4 — Vendas e Lançamentos
-| Agente | Função |
-|--------|--------|
-| **ARIA** | Atendimento e suporte ao cliente |
-| **HYPE** | Estratégia de antecipação e lançamentos |
-| **HEIST** | Funis de vendas de alta conversão |
-| **CASH** | Radar de oportunidades financeiras |
-| **LEAD** | Criação de iscas digitais |
-| **NOVA** | Lançamentos de novos produtos (GTM) |
-
-### Especialistas
-| Agente | Função |
-|--------|--------|
-| **PIXEL** | Geração de imagens via IA |
-| **CANVAS** | Designer de interfaces HTML/React |
-| **NANO** | Edição de micro-ativos visuais |
-| **WIRE** | Networking e parcerias no LinkedIn |
-| **REEL** | Roteiros e vídeos curtos |
-| **CLIP** | Cortes rápidos para redes sociais |
-| **DRIP** | Automação de CRM e réguas de email |
-| **LENS** | Análise profunda de documentos |
-| **TREND** | Monitor de tendências em tempo real |
-| **MAP** | Mapeamento de jornada do cliente |
-| **MENTOR** | Educação e simplificação de conceitos |
-| **LUNA** | Consultoria para nicho nupcial |
-| **CIPHER** | Segurança e ciberdefesa |
-| **MIRROR** | Red Team e validação de ideias |
-| **_CORE** | Protocolos e arquivos base do sistema |
-| **workflows** | Automatização de processos internos |
+Built for:
+- 🤖 **Marketing & content automation**
+- 📊 **Data analysis & market intelligence**
+- 💼 **Sales funnels & lead prospecting**
+- 🛠️ **Software development & scripting**
+- 🚀 **Product launches & go-to-market**
 
 ---
 
-## Stack Tecnológico
+## System Architecture
+
+### Layer 0 — Command & Strategy
+| Agent | Role |
+|-------|------|
+| **NEXUS** | Central orchestrator — manages complex projects and conflicts |
+| **FRIEREN** | Quality control, protocols and system health |
+| **SAGE** | Strategist — feasibility analysis and planning |
+
+### Layer 1 — Intelligence & Market
+| Agent | Role |
+|-------|------|
+| **RADAR** | BI analyst — data-driven insights |
+| **SCOUT** | Active lead prospecting |
+| **ORACLE** | Market research and competitive analysis |
+| **ARC** | SaaS architect and digital product designer |
+| **YIELD** | Monetization engineer and ROI optimizer |
+
+### Layer 2 — Content & Branding
+| Agent | Role |
+|-------|------|
+| **ECHO** | Narrative copywriter and conversion specialist |
+| **KIRA** | Social media manager and engagement strategist |
+| **STORM** | Virality engineer and hook writer |
+| **DANTE** | Specialized LinkedIn content creator |
+| **PINE** | Organic traffic via Pinterest |
+| **INK** | Email marketing and newsletters |
+| **VIBE** | Branding and visual identity |
+| **ATLAS** | Morning brief and news curation |
+
+### Layer 3 — Technical Execution & Code
+| Agent | Role |
+|-------|------|
+| **LUMEN** | Full-Stack developer and bug resolver |
+| **FLUX** | Project manager and sprint planner |
+| **BYTE** | Lightweight automations and scripts |
+| **PULSE** | Sysadmin and system monitoring |
+| **VAULT** | Long-term memory and documentation |
+| **HELIX** | Technical and AI SEO specialist |
+| **FLOW** | n8n automation expert |
+
+### Layer 4 — Sales & Launches
+| Agent | Role |
+|-------|------|
+| **ARIA** | Customer support and service |
+| **HYPE** | Launch anticipation strategist |
+| **HEIST** | High-conversion sales funnel builder |
+| **CASH** | Financial opportunity radar |
+| **LEAD** | Lead magnet creator |
+| **NOVA** | New product launches (GTM) |
+
+### Specialists
+| Agent | Role |
+|-------|------|
+| **PIXEL** | AI image generation |
+| **CANVAS** | HTML/React interface designer |
+| **NANO** | Visual micro-asset editor |
+| **WIRE** | LinkedIn networking and partnerships |
+| **REEL** | Short video scripts and production |
+| **CLIP** | Quick cuts for social media |
+| **DRIP** | CRM automation and email sequences |
+| **LENS** | Deep document analysis |
+| **TREND** | Real-time trend monitor |
+| **MAP** | Customer journey mapping |
+| **MENTOR** | Education and concept simplification |
+| **LUNA** | Bridal niche consultant |
+| **CIPHER** | Security and cyber defense |
+| **MIRROR** | Red team and idea validation |
+| **_CORE** | System base protocols and files |
+| **workflows** | Internal process automation |
+
+---
+
+## Tech Stack
 
 - **Runtime**: Python 3.10+
 - **AI Engine**: Claude AI (Anthropic)
-- **Orquestração**: OpenClaw Framework
-- **Automações**: n8n
-- **Integrações**: APIs REST, webhooks, CRM
+- **Orchestration**: OpenClaw Framework
+- **Automations**: n8n
+- **Integrations**: REST APIs, webhooks, CRM
 
 ---
 
-## Sobre a Autora
+## Author
 
-Desenvolvido por **[Vitoria Ferreira](https://github.com/vivieches)** — Full Stack Developer & AI Engineer.
+Built by **[Vitoria Ferreira](https://github.com/vivieches)** — Full Stack Developer & AI Engineer.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-FF4DA6?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/vitória-ferreira-162643281)
 [![GitHub](https://img.shields.io/badge/GitHub-9B5CFF?style=flat-square&logo=github&logoColor=white)](https://github.com/vivieches)
 
 ---
 
-*Keywords: AI agents, multi-agent system, marketing automation, content automation, LLM agents, Claude AI, Python AI framework, agentes IA, automação de marketing, sistema multiagente*
+*Keywords: AI agents, multi-agent system, marketing automation, content automation, LLM agents, Claude AI, Python AI framework, autonomous agents, AI workflow*
